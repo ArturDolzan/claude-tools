@@ -3,12 +3,16 @@
   "owner": {
     "name": "Artur Dolzan"
   },
+  "metadata": {
+    "pluginRoot": "."
+  },
   "plugins": [
     {
       "name": "dev-tools",
-      "source": "./",
       "description": "Git commit standards and C++ development agent",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "commands": "./skills/github-commit",
+      "agents": "./agents/cpp-dev.md"
     }
   ]
 }
