@@ -6,7 +6,10 @@
   "plugins": [
     {
       "name": "dev-tools",
-      "source": ".",
+      "source": {
+        "source": "relative",
+        "path": "."
+      },
       "description": "Git commit standards and C++ development agent",
       "version": "1.0.0",
       "strict": false
