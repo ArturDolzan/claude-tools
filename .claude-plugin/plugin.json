@@ -1,0 +1,11 @@
+{
+  "name": "git-standards",
+  "description": "Git commit standards plugin for Claude Code",
+  "version": "1.0.0",
+  "author": {
+    "name": "Artur Dolzan",
+    "url": "https://arturdolzan.com"
+  },
+  "repository": "https://github.com/arturdolzan/claude-tools",
+  "license": "MIT"
+}
