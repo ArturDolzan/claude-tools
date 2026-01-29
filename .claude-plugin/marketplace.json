@@ -5,16 +5,11 @@
   },
   "plugins": [
     {
-      "name": "github-commit",
-      "source": "./skills/github-commit",
-      "description": "Create well-formatted git commits following best practices",
-      "version": "1.0.0"
-    },
-    {
-      "name": "cpp-dev",
-      "source": "./agents/cpp-dev",
-      "description": "C++ development assistant",
-      "version": "1.0.0"
+      "name": "dev-tools",
+      "source": ".",
+      "description": "Git commit standards and C++ development agent",
+      "version": "1.0.0",
+      "strict": false
     }
   ]
 }
