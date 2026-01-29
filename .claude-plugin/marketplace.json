@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "dev-tools",
-      "source": ".",
+      "source": "./",
       "description": "Git commit standards and C++ development agent",
       "version": "1.0.0"
     }
