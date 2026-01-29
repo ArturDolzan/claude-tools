@@ -5,21 +5,15 @@
   },
   "plugins": [
     {
-      "name": "github-commit-skill",
-      "source": {
-        "type": "relative",
-        "path": "./skills/github-commit"
-      },
-      "description": "Git commit standards",
+      "name": "github-commit",
+      "source": "./skills/github-commit",
+      "description": "Create well-formatted git commits following best practices",
       "version": "1.0.0"
     },
     {
-      "name": "cpp-dev-agent",
-      "source": {
-        "type": "relative", 
-        "path": "./agents"
-      },
-      "description": "C++ development agent",
+      "name": "cpp-dev",
+      "source": "./agents/cpp-dev",
+      "description": "C++ development assistant",
       "version": "1.0.0"
     }
   ]
